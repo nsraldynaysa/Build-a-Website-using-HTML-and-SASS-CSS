@@ -1,0 +1,24 @@
+.btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 50px;
+    transition: .3s;
+    cursor: pointer;
+    i {
+        margin-left: 20px;
+    }
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.btn-primary {
+    background-color: $sunOrangeColor;
+}
+.btn-secondary {
+    background-color: $sharkGeryColor;
+}
